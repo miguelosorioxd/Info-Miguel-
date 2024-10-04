@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Promedio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Calculadora de Promedios 📚</h1>
+        <div class="input-group">
+            <label for="nota1">Primer 35%:</label>
+            <input type="number" id="nota1" placeholder="Ej. 85">
+        </div>
+        <div class="input-group">
+            <label for="nota2">Segundo 35%:</label>
+            <input type="number" id="nota2" placeholder="Ej. 90">
+        </div>
+        <div class="input-group">
+            <label for="nota3">Examen:</label>
+            <input type="number" id="nota3" placeholder="Ej. 80">
+        </div>
+        <button onclick="promediar()">Calcular</button>
+        <h2>Promedio: <span id="salida"></span></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
